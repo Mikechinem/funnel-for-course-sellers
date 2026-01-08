@@ -1,0 +1,37 @@
+```mermaid
+graph LR
+    A[📱 Meta Ad<br/>FB/IG] --> B[🎯 Lead Magnet Page<br/>Free Forex Guide<br/>CTA: Get Access]
+    
+    B --> C[📋 Questionnaire<br/>Experience Level?<br/>Trading Goals?<br/>Budget?]
+    
+    C --> D{Qualified<br/>Lead?}
+    
+    D -->|High Intent| E[💎 $97 Course Offer<br/>Premium Training<br/>+ Bonuses]
+    D -->|Low Intent| G[📱 WhatsApp Group<br/>Join for Free Guide]
+    
+    E --> H{Purchases<br/>$97?}
+    H -->|Yes| I[✅ Customer<br/>$97 Course Access]
+    H -->|No| J[⬇️ Downsell<br/>$29 Course Offer]
+    
+    J --> K{Purchases<br/>$29?}
+    K -->|Yes| L[✅ Customer<br/>$29 Course Access]
+    K -->|No| G
+    
+    G --> N[📲 WhatsApp<br/>Lead Magnet<br/>Delivered]
+    
+    N --> O[🔄 Nurture<br/>in Group<br/>Future Offers]
+    
+    style A fill:#4267B2,stroke:#29487d,stroke-width:3px,color:#fff
+    style B fill:#FF6B35,stroke:#cc5529,stroke-width:3px,color:#fff
+    style C fill:#FFA726,stroke:#E68900,stroke-width:3px,color:#fff
+    style D fill:#FFD23F,stroke:#ccaa32,stroke-width:2px,color:#000
+    style E fill:#9C27B0,stroke:#6A1B9A,stroke-width:3px,color:#fff
+    style G fill:#25D366,stroke:#128C7E,stroke-width:3px,color:#fff
+    style H fill:#FFD23F,stroke:#ccaa32,stroke-width:2px,color:#000
+    style I fill:#4CAF50,stroke:#2E7D32,stroke-width:4px,color:#fff
+    style J fill:#BA68C8,stroke:#8E24AA,stroke-width:2px,color:#fff
+    style K fill:#FFD23F,stroke:#ccaa32,stroke-width:2px,color:#000
+    style L fill:#66BB6A,stroke:#388E3C,stroke-width:4px,color:#fff
+    style N fill:#26A69A,stroke:#00796B,stroke-width:3px,color:#fff
+    style O fill:#78909C,stroke:#546E7A,stroke-width:2px,color:#fff
+```
